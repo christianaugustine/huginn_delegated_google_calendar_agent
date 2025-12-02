@@ -1,4 +1,5 @@
 require 'huginn_agent'
 
-#HuginnAgent.load 'huginn_delegated_google_calendar_agent/concerns/my_agent_concern'
+HuginnAgent.load "huginn_delegated_google_calendar_agent/delegated_google_calendar"
 HuginnAgent.register 'huginn_delegated_google_calendar_agent/delegated_google_calendar_agent'
+
