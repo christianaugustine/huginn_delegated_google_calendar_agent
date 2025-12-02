@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "huginn_delegated_google_calendar_agent"
-  spec.version       = '0.1.1'
+  spec.version       = '0.1.2'
   spec.authors       = ["Christian Augustine"]
   spec.email         = ["me@christianaugustine.com"]
 

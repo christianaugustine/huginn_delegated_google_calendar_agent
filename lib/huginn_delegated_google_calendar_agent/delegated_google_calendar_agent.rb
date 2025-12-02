@@ -1,5 +1,5 @@
 module Agents
-  class DelegatedGoogleCalendarPublishAgent < Agents::GoogleCalendarPublishAgent
+  class DelegatedGoogleCalendarAgent < Agents::GoogleCalendarPublishAgent
     # override only what you need
     def default_options
       super.tap do |opts|
